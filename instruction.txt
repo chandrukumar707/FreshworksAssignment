@@ -1,0 +1,11 @@
+x.create("key",value) #Creating file 
+x.read("key") 	      #Reading file
+x.modify("key",value) #Modify file
+x.delete("key")       #Delete file
+Thread Creation
+t1=Thread(target=(create or read or delete),args=(key_name,value,timeout))
+t1.start()
+t1.sleep()
+t2=Thread(target=(create or read or delete),args=(key_name,value,timeout))
+t2.start()
+t2.sleep()
