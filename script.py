@@ -3,7 +3,7 @@ import math
 from threading import*
 import time
 import collections
-d={} # as json file
+d={} # Dictionary as json file
 def create(key,value,timeout=0):
     if key in d:
         print("error: this key already exists") 
